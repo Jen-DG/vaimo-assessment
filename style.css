@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+      flex-direction:column;
+      margin-top: 0px !important;
+    }
+  }
+
+.flex-container {
+    display: flex;
+    margin-top: 48px;
+}
+
+.drone img{
+    width: 416px;
+}
+@media only screen and (max-width: 600px) {
+    .drone img {
+    width: 360px;
+    }
+}
+
+.info-box {
+    width: 526px;
+    height: 544px;
+}
+@media only screen and (max-width:360px) {
+    .info-box {
+        width: 360px;
+        height: 568px;
+    }
+}
+/* Badges */
+.badges {
+    display: flex;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+}
+
+.badges p {
+    padding: 3px;
+}
+
+.indent {
+    text-indent: 1em;
+    background-color: #FFF0E6;
+    color: #FF7527;
+}
+.o-bg {
+    background: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+    color: #FFFFFF;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+
+/* Product title */
+h1 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.tag-line {
+    background-color: #E6E7EB;
+    color: #999999;
+    font-size: 12px;
+    padding: 3px;
+}
+
+/* Ratings Box */
+.rating {
+    display: flex;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.stars {
+    color: #FF7527;
+}
+
+.reviews {
+    color: #999999;
+    margin-left: 4px;
+}
+
+.buyers {
+    margin-left: 24px;
+    color: #333333;
+}
+
+/* Price Box */
+.price-box {
+    display: flex;
+    margin-top: 12px;
+}
+
+.amount1 {
+    color: #FF7527;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.space-option {
+    margin: 0 11px 0 12px;
+}
+
+.option2, .space-option, .min-order, .amount2{
+    font-size: 14px;
+}
+
+.min-order, .space-option, .amount2 {
+    color: #999999;
+}
+
+.amount2 {
+    margin-bottom: 12px;
+    text-decoration: line-through;
+}
+
+/* March expo box */
+.march-expo {
+    display: flex;
+    background-color: #FFF0E6;
+    margin: 12px 0 24px 0;
+}
+.expo-logo {
+    width: 76px;
+    height: 40px;
+}
+
+.shipping {
+    margin: 12px 24px 12px 30px;
+    color: #FF7527;
+    font-size: 14px;
+}
+
+.arrow-icon {
+    width: 8px;
+    height: 14px;
+    margin: 12px 0px 0 30px;
+    cursor: pointer;
+}
+
+/* Countdown timer */
+.countdown-timer {
+    display: flex;
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+    margin: 0 12px 0 24px;
+}
+
+.discount-amount {
+    color: #FF7527;
+}
+
+.discount-text, .discount-amount {
+    font-size: 14px;
+}
+
+.discount-date, .discount-text {
+    color: #999999;
+
+}
+
+/* Products-box */
+.products {
+    margin-top: 24px;
+    display: flex;
+}
+
+.products-title {
+    margin: 12px 0 12px 0;
+}
+
+.product1 {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+
+.product2 {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 12px;
+}
+
+.product3 {
+    display: flex;
+    margin-left: 100px;
+}
+
+.product1-lable  {
+    margin: 12px 130px 12px 0;
+    font-size: 14px;
+}
+
+.product2-lable {
+    margin: 12px 150px 12px 0;
+    font-size: 14px;
+}
+
+.product3-lable {
+    margin: 12px 35px 12px 0;
+    font-size: 14px;
+}
+
+.product1-price, .product2-price  {
+    font-size: 14px;
+    margin: 12px 40px 12px 0;
+
+}
+
+.product3-price {
+    font-size: 14px;
+    margin: 12px 56px 12px 0;
+}
+
+.minus {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #E6E7EB;
+    border-radius: 2px 0 0 2px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.plus {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #FF6600;
+    border-radius: 0 2px 2px 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.amount {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
+
+/* Trade and payment and links */
+.trade-assurance {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.display {
+    display: flex;
+    margin: 12px 0;
+}
+
+.trade-icon {
+    width: 12px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.strong {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Add to box */
+.Add-to-box {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+    width: 306px;
+    height: 256px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #999999;
+    padding: 24px;
+}
+
+.ship-display {
+    display: flex;
+}
+
+.ship-location {
+    margin: 28px 12px 12px 0;
+}
+
+.ship-amount {
+    margin-top: 28px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.SA, .ship-company  {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.lead-time, .ship-time {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.info-icon  {
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #FF6600;
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+    border: 1px solid #FF6600;
+    color: #FF6600;
+    cursor: pointer;
+}
+
+.email-icon {
+    margin-right: 12px;
+}
